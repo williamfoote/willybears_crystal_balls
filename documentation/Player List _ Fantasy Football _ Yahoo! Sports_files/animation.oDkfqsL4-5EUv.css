@@ -1,0 +1,16 @@
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0,120,255, 0.4);
+    background-color: #0078ff;
+  }
+  40% {
+      background-color: #9bcbff;
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(0,120,255, 0);
+    background-color: #0078ff;
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0,120,255, 0);
+  }
+}

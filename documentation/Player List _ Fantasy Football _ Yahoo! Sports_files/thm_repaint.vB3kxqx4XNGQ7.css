@@ -1,0 +1,1119 @@
+
+:root {
+  color-scheme: light;
+  --playbook-core-red: #cc0e25;
+  --playbook-core-green: #008343;
+  --playbook-core-blue: #0063eb;
+  --playbook-core-yahoo: #6001d2;
+  
+  --playbook-ancillary-green: #24a54a;
+  --playbook-ancillary-red: #ff403a;
+  --playbook-ancillary-your-team: #5d5eff;
+  --playbook-ancillary-carrot-juice: #ff520d;
+  --playbook-ancillary-cheetos: #ff6e0c;
+  --playbook-ancillary-turmeric: #ffa700;
+  --playbook-ancillary-hulk-pants: #7e1fff;
+  --playbook-ancillary-starfish: #7759ff;
+  --playbook-ancillary-thanos: #907cff;
+  --playbook-ancillary-hendrix: #f8f4ff;
+  --playbook-ancillary-casper: #fff;
+  --playbook-ancillary-batcave: #232a31;
+  
+  --playbook-text-primary: #232a31;
+  --playbook-text-secondary: #5b636a;
+  --playbook-text-disabled: #b0b9c1;
+  --playbook-text-positive: #008343;
+  --playbook-text-negative: #cc0e25;
+  --playbook-text-link: #0063eb;
+  --playbook-text-primary-inverse: #fff;
+  --playbook-text-primary-inverse-dim-2: rgba(255, 255, 255, 0.2);
+  --playbook-text-secondary-inverse: #c7cdd2;
+  --playbook-text-disabled-inverse: #6e7780;
+  
+  --playbook-ui-primary: #232a31;
+  --playbook-ui-primary-dim-25: rgba(35, 42, 49, 0.25);
+  --playbook-ui-primary-dim-26: rgba(35, 42, 49, 0.26);
+  --playbook-ui-primary-dim-3: rgba(35, 42, 49, 0.3);
+  --playbook-ui-primary-dim-6: rgba(35, 42, 49, 0.6);
+  --playbook-ui-secondary: #5b636a;
+  --playbook-ui-primary-inverse: #fff;
+  --playbook-ui-primary-inverse-dim-1: rgba(255, 255, 255, 0.1);
+  --playbook-ui-secondary-inverse: #c7cdd2;
+  --playbook-ui-disabled: #b0b9c1;
+  --playbook-ui-accent: #e0e4e9;
+  --playbook-ui-shade: #f5f8fa;
+  --playbook-ui-shade-rgb: 245 248 250;
+  --playbook-ui-card-shade: #f5f8fa;
+  --playbook-ui-modal-bg: #fff;
+  --playbook-ui-card-bg: #fff;
+  --playbook-ui-card-stream-bg: #f5f8fa;
+  --playbook-ui-base-bg: #fff;
+  --playbook-ui-base-bg-rgb: 255 255 255;
+  --playbook-ui-base-bg-inverse: #101518;
+  --playbook-ui-base-bg-inverse-dim-04: rgba(16, 21, 24, 0.04);
+  --playbook-ui-table-bg: #f0f3f5;
+  --playbook-ui-blue-highlight: #ecf8ff;
+  --playbook-ui-green-highlight: #ebfbf2;
+  --playbook-ui-red-highlight: #ffeff2;
+  
+  --playbook-sport-agnostic: #000;
+  --playbook-sport-football: #c70606;
+  --playbook-sport-baseball: #00ab5e;
+  --playbook-sport-best-ball: #01179f;
+  --playbook-sport-daily: #007e80;
+  --playbook-sport-basketball: #eb6a00;
+  --playbook-sport-hockey: #188fff;
+  
+  --playbook-felo-bronze: #cf7f27;
+  --playbook-felo-silver: #6e7780;
+  --playbook-felo-gold: #ffd333;
+  --playbook-felo-diamond: #347ea3;
+  --playbook-felo-platinum: #46617a;
+  
+  --playbook-mono-red-1: #ffeff2;
+  --playbook-mono-red-2: #ffdae1;
+  --playbook-mono-red-3: #cc0e25;
+  --playbook-mono-orange-1: #fff1e0;
+  --playbook-mono-orange-2: #ffe7ca;
+  --playbook-mono-orange-3: #ce3800;
+  --playbook-mono-yellow-1: #fffce6;
+  --playbook-mono-yellow-2: #fff8c5;
+  --playbook-mono-yellow-3: #996d00;
+  --playbook-mono-green-1: #ebfbf2;
+  --playbook-mono-green-2: #dbfdea;
+  --playbook-mono-green-3: #008343;
+  --playbook-mono-blue-1: #ecf8ff;
+  --playbook-mono-blue-2: #d8f1ff;
+  --playbook-mono-blue-3: #0063eb;
+  --playbook-mono-purple-1: #f8f4ff;
+  --playbook-mono-purple-2: #efe5ff;
+  --playbook-mono-purple-3: #39007d;
+  
+  --playbook-special-blue-hover: #004dcd;
+  --playbook-special-red-hover: #b00c1e;
+  --playbook-special-grey-hover: #e6e6e6;
+  --playbook-special-grey-hover-inverse: #393f46;
+  --playbook-special-agnostic-hover: #e6e6e6;
+  --playbook-special-agnostic-hover-outline: #393f46;
+  --playbook-special-focus: rgba(15, 105, 255, 0.5);
+  --playbook-elevation-card: 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  [data-color-scheme="auto"] {
+    color-scheme: dark;
+    --playbook-core-red: #ff7070;
+    --playbook-core-green: #0ed669;
+    --playbook-core-blue: #43baff;
+    
+    --playbook-text-primary: #fff;
+    --playbook-text-secondary: #c7cdd2;
+    --playbook-text-disabled: #6e7780;
+    --playbook-text-positive: #0ed669;
+    --playbook-text-negative: #ff7070;
+    --playbook-text-link: #43baff;
+    --playbook-text-primary-inverse: #232a31;
+    --playbook-text-primary-inverse-dim-2: rgba(35, 42, 49, 0.2);
+    --playbook-text-secondary-inverse: #5b636a;
+    --playbook-test-disabled-inverse: #b0b9c1;
+    
+    --playbook-ui-primary: #fff;
+    --playbook-ui-primary-dim-25: rgba(255, 255, 255, 0.25);
+    --playbook-ui-primary-dim-26: rgba(255, 255, 255, 0.26);
+    --playbook-ui-primary-dim-3: rgba(255, 255, 255, 0.3);
+    --playbook-ui-primary-dim-6: rgba(255, 255, 255, 0.6);
+    --playbook-ui-secondary: #c7cdd2;
+    --playbook-ui-primary-inverse: #232a31;
+    --playbook-ui-primary-inverse-dim-1: rgba(35, 42, 49, 0.1);
+    --playbook-ui-secondary-inverse: #5b636a;
+    --playbook-ui-disabled: #6e7780;
+    --playbook-ui-accent: #323e48;
+    --playbook-ui-shade: #1d2228;
+    --playbook-ui-shade-rgb: 16 21 24;
+    --playbook-ui-card-shade: #2c363f;
+    --playbook-ui-modal-bg: #1d2228;
+    --playbook-ui-card-bg: #1d2228;
+    --playbook-ui-card-stream-bg: #101518;
+    --playbook-ui-base-bg: #101518;
+    --playbook-ui-base-bg-rgb: 0 0 0;
+    --playbook-ui-base-bg-inverse: #fff;
+    --playbook-ui-base-bg-inverse-dim-04: rgba(255, 255, 255, 0.04);
+    --playbook-ui-table-bg: #232a31;
+    --playbook-ui-blue-highlight: #19293c;
+    --playbook-ui-green-highlight: #112b1c;
+    --playbook-ui-red-highlight: #3a0c0a;
+    
+    --playbook-felo-bronze: #cb985a;
+    --playbook-felo-silver: #c7cdd2;
+    --playbook-felo-gold: #ffde00;
+    --playbook-felo-diamond: #60abd0;
+    --playbook-felo-platinum: #7696b8;
+    
+    --playbook-mono-red-1: #391518;
+    --playbook-mono-red-2: #612226;
+    --playbook-mono-red-3: #ff7070;
+    --playbook-mono-orange-1: #331602;
+    --playbook-mono-orange-2: #562604;
+    --playbook-mono-orange-3: #ff6e0c;
+    --playbook-mono-yellow-1: #332100;
+    --playbook-mono-yellow-2: #543800;
+    --playbook-mono-yellow-3: #ffa700;
+    --playbook-mono-green-1: #0d3217;
+    --playbook-mono-green-2: #065228;
+    --playbook-mono-green-3: #0ed669;
+    --playbook-mono-blue-1: #0e344e;
+    --playbook-mono-blue-2: #134d6f;
+    --playbook-mono-blue-3: #43baff;
+    --playbook-mono-purple-1: #1d1933;
+    --playbook-mono-purple-2: #352e5f;
+    --playbook-mono-purple-3: #907cff;
+    
+    --playbook-special-blue-hover: #5ac3ff;
+    --playbook-special-red-hover: #ff403a;
+    --playbook-special-grey-hover: #393f46;
+    --playbook-special-grey-hover-inverse: #e6e6e6;
+    --playbook-elevation-card: 0 0 1px rgba(0, 0, 0, 0.92), 0 4px 8px rgba(0, 0, 0, 0.9);
+  }
+}
+html.Desktop.Ybar3[data-color-scheme="auto"] .ybar-light #ybar #ybar-inner-wrap,
+html.Desktop[data-color-scheme="auto"] .Ybar .ybar-light #ybar #ybar-inner-wrap,
+html.Desktop.Ybar3[data-color-scheme="auto"] .ybar-dark #ybar #ybar-inner-wrap,
+html.Desktop[data-color-scheme="auto"] .Ybar .ybar-dark #ybar #ybar-inner-wrap {
+  background: transparent !important;
+}
+
+a {
+  color: var(--playbook-text-primary);
+}
+a:hover {
+  color: var(--playbook-text-link);
+  text-decoration: underline;
+}
+a:hover.F-icon {
+  text-decoration: none;
+}
+
+p a,
+td a {
+  color: var(--playbook-text-link);
+}
+
+.No-Hover-Underline:hover {
+  text-decoration: none;
+}
+
+html {
+  background-color: var(--playbook-ui-base-bg);
+}
+
+body {
+  position: relative;
+  color: var(--playbook-text-primary);
+}
+
+.Desktop:not(.Touch) body:after {
+  background-color: var(--playbook-ui-base-bg);
+  content: "";
+  height: calc( 100vh - 100%);
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  bottom: 100%;
+  top: 100%;
+}
+
+.Page-ft {
+  background: var(--playbook-ui-base-bg);
+}
+
+.Page-ft a {
+  color: var(--playbook-text-secondary);
+}
+
+.Page-masthead {
+  background: transparent;
+  border-bottom-color: var(--playbook-ui-accent);
+}
+
+.Page-maincontent,
+.Page-footercontent,
+.Page-ft {
+  background-color: var(--playbook-ui-base-bg);
+}
+
+.Desktop:not(.Touch) .Page-wrap {
+  margin-left: calc( (100vw - 100%) / 2 * -1);
+}
+
+@media print {
+  .Page-wrap {
+    margin-left: 0px;
+  }
+}
+.template-html5 .Subnav-main-wrap,
+.template-html5 .Page-bd,
+.template-html5 .Page-ft {
+  background-color: var(--playbook-ui-base-bg);
+  position: relative;
+  clear: both;
+}
+.template-html5 .Subnav-main-wrap:before, .template-html5 .Subnav-main-wrap:after,
+.template-html5 .Page-bd:before,
+.template-html5 .Page-bd:after,
+.template-html5 .Page-ft:before,
+.template-html5 .Page-ft:after {
+  background-color: var(--playbook-ui-base-bg);
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: calc( (100vw - 100%) / 2);
+}
+.template-html5 .Subnav-main-wrap:before,
+.template-html5 .Page-bd:before,
+.template-html5 .Page-ft:before {
+  left: 100%;
+}
+.template-html5 .Subnav-main-wrap:after,
+.template-html5 .Page-bd:after,
+.template-html5 .Page-ft:after {
+  right: 100%;
+}
+
+.Subnav-main-wrap .Navtarget {
+  color: var(--playbook-text-secondary);
+}
+
+.Subnav-main > .Navitem > .Navtarget:hover {
+  color: var(--playbook-text-primary);
+}
+
+.Mod {
+  background: var(--playbook-ui-base-bg);
+}
+
+.Bd {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.Hd.Daily-bdr-bot,
+.Bd.Daily-bdr-bot {
+  border-bottom: 2px solid var(--playbook-sport-daily);
+}
+
+.Badge {
+  background-color: var(--playbook-ui-primary);
+  border-color: var(--playbook-ui-primary);
+  color: var(--playbook-text-primary-inverse);
+}
+.Badge.Badge-primary {
+  background-color: var(--playbook-core-blue);
+  border-color: var(--playbook-core-blue);
+}
+.Badge.Badge-negative {
+  background-color: var(--playbook-core-red);
+  border-color: var(--playbook-core-red);
+}
+.Badge.Badge-negative-bench {
+  background-color: var(--playbook-mono-red-1);
+  border-color: var(--playbook-mono-red-2);
+  color: var(--playbook-core-red);
+}
+.Badge.Badge-positive {
+  background-color: var(--playbook-core-green);
+  border-color: var(--playbook-core-green);
+}
+.Badge.Badge-bronze {
+  background-color: var(--playbook-felo-bronze);
+  border-color: var(--playbook-felo-bronze);
+  color: var(--playbook-text-primary);
+}
+.Badge.Badge-silver {
+  background-color: var(--playbook-felo-silver);
+  border-color: var(--playbook-felo-silver);
+}
+.Badge.Badge-gold {
+  background-color: var(--playbook-felo-gold);
+  border-color: var(--playbook-felo-gold);
+}
+.Badge.Badge-platinum {
+  background-color: var(--playbook-felo-platinum);
+  border-color: var(--playbook-felo-platinum);
+}
+.Badge.Badge-diamond {
+  background-color: var(--playbook-felo-diamond);
+  border-color: var(--playbook-felo-diamond);
+}
+
+.coc-standings {
+  height: 0;
+  width: 0;
+  border-left: 10px solid;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+.coc-standings.gold {
+  border-left-color: var(--playbook-felo-gold);
+}
+.coc-standings.silver {
+  border-left-color: var(--playbook-felo-silver);
+}
+.coc-standings.bronze {
+  border-left-color: var(--playbook-felo-bronze);
+}
+.coc-standings.plastic {
+  border-left-color: var(--playbook-core-red);
+}
+
+.LeagueNotes a {
+  color: var(--playbook-text-link);
+}
+
+.Btn,
+.Btn-secondary {
+  background-color: var(--playbook-ui-base-bg);
+  background-image: none;
+  border-color: var(--playbook-core-blue);
+  color: var(--playbook-core-blue);
+  -webkit-appearance: none;
+  text-shadow: none;
+}
+
+.Btn:hover,
+.Btn-secondary:hover {
+  background-color: var(--playbook-special-grey-hover);
+  border-color: var(--playbook-core-blue);
+  color: var(--playbook-core-blue);
+}
+
+.Btn:active,
+.Btn-secondary:active {
+  opacity: 0.5;
+  outline: none !important;
+}
+
+.Btn-tertiary,
+.Btn.Tertiary {
+  background-color: var(--playbook-ui-base-bg);
+  background-image: none;
+  border-color: var(--playbook-ui-accent);
+  color: var(--playbook-core-blue);
+  -webkit-appearance: none;
+  text-shadow: none;
+}
+
+.Btn-tertiary:hover,
+.Btn.Tertiary:hover {
+  background-color: var(--playbook-special-grey-hover);
+  border-color: var(--playbook-ui-accent);
+  color: var(--playbook-core-blue);
+}
+
+.Btn-primary,
+.Btn.Primary {
+  background-color: var(--playbook-core-blue);
+  background-image: none;
+  border-color: var(--playbook-core-blue);
+  color: var(--playbook-text-primary-inverse);
+  -webkit-appearance: none;
+  text-shadow: none;
+}
+
+.Btn-primary:hover,
+.Btn.Primary:hover {
+  background-color: var(--playbook-special-blue-hover);
+  border-color: var(--playbook-core-blue);
+  color: var(--playbook-text-primary-inverse);
+}
+
+.Btn-primary:active,
+.Btn.Primary:active {
+  opacity: 0.5;
+  outline: none !important;
+}
+
+.Btn-disabled,
+.Btn-disabled:hover {
+  outline: none !important;
+  opacity: 1 !important;
+  cursor: default;
+  color: var(--playbook-text-disabled) !important;
+  background-color: var(--playbook-ui-base-bg) !important;
+  border-color: var(--playbook-text-disabled) !important;
+}
+
+.Btn-positive,
+.Btn-positive:hover {
+  background-color: var(--playbook-core-green);
+  color: var(--playbook-text-primary-inverse);
+  border-color: var(--playbook-core-green);
+}
+
+.Btn-negative,
+.Btn-negative:hover {
+  background-color: var(--playbook-core-red);
+  color: var(--playbook-text-primary-inverse);
+  border-color: var(--playbook-core-red);
+}
+
+.Btn-select {
+  color: var(--playbook-text-secondary);
+}
+
+.Btn-select:hover {
+  color: var(--playbook-text-primary-inverse);
+}
+
+.Btn-select-active {
+  color: var(--playbook-text-primary-inverse);
+  background-color: var(--playbook-core-blue);
+}
+
+.Btn-shade {
+  background-color: var(--playbook-ui-accent);
+}
+
+.Checkbox .Checked {
+  border: solid 2px;
+  color: var(--playbook-ui-base-bg);
+  border-color: var(--playbook-ui-secondary);
+  line-height: normal;
+  font-size: 12px;
+  padding: 4px 3px;
+  width: 24px;
+  height: 24px;
+}
+.Checkbox .Checkbox-text {
+  color: var(--playbook-text-secondary);
+}
+.Checkbox input:checked + label .Checked {
+  background: var(--playbook-core-blue);
+  border-color: var(--playbook-core-blue);
+}
+.Checkbox input:disabled + label .Checked {
+  border-color: var(--playbook-ui-disabled);
+}
+.Checkbox input:disabled + label .Checkbox-text {
+  color: var(--playbook-text-disabled);
+}
+.Checkbox input:checked:disabled + label .Checked {
+  background-color: var(--playbook-ui-disabled);
+}
+
+#hd {
+  border: none;
+}
+
+.Nav-main-wrap {
+  background: var(--playbook-ui-primary-dim-6);
+  border-color: transparent;
+}
+
+.Nav-main {
+  color: var(--playbook-text-secondary-inverse);
+}
+
+.Nav-main > .Navitem > .Navtarget {
+  color: var(--playbook-text-secondary-inverse);
+}
+
+.Nav-main > .Navitem:hover > .Navtarget {
+  color: var(--playbook-text-primary-inverse);
+}
+
+.Nav-main > .Selected > .Navtarget,
+.Nav-main > .Selected:hover > .Navtarget {
+  color: var(--playbook-text-primary-inverse);
+}
+
+.Nav-main > .Navitem > .Navtarget.Fantasy-item {
+  color: var(--playbook-text-secondary-inverse);
+}
+
+.Nav-main .Navitem-fantasy {
+  border-right: 1px solid var(--playbook-text-primary-inverse-dim-2);
+}
+
+.Nav-main > .Navitem-disabled,
+.Nav-main > .Navitem-disabled:hover,
+.Nav-main > .Navitem-disabled:hover > .Navtarget {
+  background: none;
+  color: var(--playbook-text-disabled-inverse);
+}
+
+.Nav-h {
+  padding-left: 0px;
+}
+.Nav-h:not(.Nav-main) {
+  border-bottom-color: var(--playbook-ui-accent);
+  border-top-color: var(--playbook-ui-accent);
+}
+.Nav-h.Nav-chips > .Navitem {
+  border-color: var(--playbook-ui-accent);
+}
+.Nav-h.Nav-chips > .Navitem > .Navtarget {
+  color: var(--playbook-text-primary);
+}
+.Nav-h.Nav-chips > .Navitem.Selected {
+  background-color: var(--playbook-core-blue);
+}
+.Nav-h.Nav-chips > .Navitem.Selected > .Navtarget {
+  color: var(--playbook-text-primary-inverse);
+}
+.Nav-h.Nav-chips > .Navitem:not(.Selected):hover {
+  background-color: var(--playbook-special-grey-hover);
+}
+
+.Nav-h:not(.Nav-main):not(.Nav-chips) > .Navitem > .Navtarget {
+  color: var(--playbook-text-secondary);
+}
+
+.Nav-h:not(.Nav-main):not(.Nav-chips) > .Navitem.Selected > .Navtarget {
+  color: var(--playbook-text-primary);
+}
+
+.Nav-h:not(.Nav-main):not(.Nav-chips) > .Navitem:not(.Selected):hover > .Navtarget {
+  color: var(--playbook-text-link);
+}
+
+.Nav-h:not(.Nav-main):not(.Nav-plain):not(.Nav-chips) .Navitem {
+  border-bottom-color: transparent;
+}
+.Nav-h:not(.Nav-main):not(.Nav-plain):not(.Nav-chips) .Navitem.Selected {
+  color: var(--playbook-text-primary);
+}
+.Nav-h:not(.Nav-main):not(.Nav-plain):not(.Nav-chips) .Navitem.Selected::after {
+  background-color: var(--playbook-core-blue);
+}
+
+.Nav-h:not(.Nav-main):not(.Nav-chips) .Navitem.Selected .Navtarget-icon {
+  background-color: var(--playbook-core-blue);
+}
+.Nav-h:not(.Nav-main):not(.Nav-chips) .Navitem.Selected .Navtarget-icon .F-icon {
+  color: var(--playbook-text-primary-inverse);
+}
+
+.Flyoutselectbox {
+  color: var(--playbook-text-primary);
+  border-color: var(--playbook-ui-accent);
+}
+.Flyoutselectbox .flyout-content {
+  border-left-color: var(--playbook-ui-accent);
+  border-right-color: var(--playbook-ui-accent);
+}
+.Flyoutselectbox .flyout_trigger:hover,
+.Flyoutselectbox .Js-next:hover,
+.Flyoutselectbox .Js-prev:hover {
+  color: var(--playbook-text-primary);
+  background-color: var(--playbook-special-grey-hover);
+}
+
+.Nav-flyout .Navtarget:hover {
+  background-color: var(--playbook-special-grey-hover);
+}
+
+.yfa-flyout-content {
+  -moz-box-shadow: 3px 5px 15px 5px var(--playbook-ui-primary-dim-26);
+  -webkit-box-shadow: 3px 5px 15px 5px var(--playbook-ui-primary-dim-26);
+  box-shadow: 3px 5px 15px 5px var(--playbook-ui-primary-dim-26);
+}
+
+.Nav-bordered-south {
+  border-color: var(--playbook-ui-primary);
+}
+
+.Nav-bordered-south > .Navitem > .Navtarget {
+  color: var(--playbook-text-secondary);
+}
+
+.Nav-bordered-south > .Navitem.Selected > .Navtarget {
+  color: var(--playbook-text-primary);
+}
+
+.Nav-bordered-south > .Navitem:not(.Selected):hover > .Navtarget {
+  color: var(--playbook-text-link);
+}
+
+.Dropdown {
+  background: var(--playbook-ui-primary);
+  border: none;
+}
+
+.Dropdown > .Hover {
+  background: var(--playbook-ui-primary);
+  color: var(--playbook-text-primary);
+}
+
+.Dropdown .Section {
+  color: var(--playbook-text-primary-inverse);
+}
+
+.Dropdown.Hover > li:hover {
+  background-color: var(--playbook-ui-primary-inverse-dim-1);
+}
+
+select {
+  background-image: url("data:image/svg+xml;utf8,<svg height='40' viewBox='0 0 28 40' width='28' xmlns='http://www.w3.org/2000/svg'><path d='m-.101695 0h28v40h-28z' fill='rgb(245,248,250)'/><path d='m11.024969 17.169747c-.22949-.220165-.613374-.223632-.84767.0017-.2366989.227678-.2354974.591152-.0018.815363l3.825029 3.679823 3.82623-3.680979c.229487-.220739.233092-.589993-.0018-.815359-.236098-.2271-.613974-.226522-.847669-.0017l-2.976758 2.863304z' fill='rgb(35,42,49)'/></svg>");
+  
+  border-color: var(--playbook-ui-accent);
+  background-color: var(--playbook-ui-base-bg);
+  color: var(--playbook-text-primary);
+}
+
+select:hover {
+  background-color: var(--playbook-special-grey-hover);
+}
+
+select[disabled] {
+  background-color: var(--playbook-ui-base-bg);
+  color: var(--playbook-text-disabled);
+  background-image: url("data:image/svg+xml;utf8,<svg height='40' viewBox='0 0 28 40' width='28' xmlns='http://www.w3.org/2000/svg'><path d='m-.101695 0h28v40h-28z' fill='rgb(245,248,250)'/><path d='m11.024969 17.169747c-.22949-.220165-.613374-.223632-.84767.0017-.2366989.227678-.2354974.591152-.0018.815363l3.825029 3.679823 3.82623-3.680979c.229487-.220739.233092-.589993-.0018-.815359-.236098-.2271-.613974-.226522-.847669-.0017l-2.976758 2.863304z' fill='rgb(176,185,193)'/></svg>");
+  
+}
+
+.Control-label {
+  font-weight: normal;
+  font-size: 14px;
+  color: var(--playbook-text-secondary);
+}
+
+input[type=radio] {
+  accent-color: var(--playbook-core-blue);
+}
+
+.Control-label span {
+  text-transform: none;
+}
+
+.Input {
+  border-color: var(--playbook-ui-accent);
+  color: var(--playbook-text-primary);
+}
+
+.Input:placeholder-shown {
+  color: var(--playbook-text-secondary);
+}
+
+.Input:focus {
+  border-color: var(--playbook-special-focus);
+}
+
+.Input:disabled {
+  background-color: var(--playbook-ui-disabled);
+  border-color: var(--playbook-ui-accent);
+}
+
+.Input.yfa-reg-error {
+  color: var(--playbook-text-negative);
+}
+
+.Table {
+  border-color: var(--playbook-ui-accent);
+}
+.Table .Selected > .Selected {
+  background: var(--playbook-ui-base-bg-inverse-dim-04);
+}
+.Table th {
+  color: var(--playbook-text-secondary);
+  border-color: var(--playbook-ui-accent);
+  font-weight: normal;
+}
+.Table th a {
+  color: var(--playbook-text-primary);
+}
+.Table th a:hover:not(.F-icon) {
+  text-decoration: underline;
+}
+.Table th.Selected {
+  background-color: var(--playbook-ui-base-bg-inverse-dim-04);
+}
+.Table thead {
+  background: var(--playbook-ui-table-bg);
+}
+.Table thead > tr:not(.First) th, .Table thead > tr.First.Last th {
+  color: var(--playbook-text-primary);
+}
+.Table td {
+  border-color: var(--playbook-ui-accent);
+}
+.Table td.Selected {
+  background-color: var(--playbook-ui-base-bg-inverse-dim-04);
+}
+.Table tr.Selected td {
+  background-color: var(--playbook-ui-base-bg-inverse-dim-04);
+}
+
+.Table-interactive tr:hover > td {
+  background: var(--playbook-mono-blue-2);
+  
+}
+.Table-interactive tr:hover > td a:not(.Btn, .Btn-primary, .ysf-game-status) {
+  color: var(--playbook-text-link) !important;
+}
+.Table-interactive tr:hover > td .ysf-game-status a:hover:not(.Btn, .Btn-primary, .ysf-game-status) {
+  color: var(--playbook-text-link) !important;
+}
+.Table-interactive tr:hover > td.Selected {
+  background: var(--playbook-mono-blue-2);
+}
+
+.Table-underline tr:hover > td a:not(.Btn, .F-icon) {
+  text-decoration: underline;
+}
+
+.List-rich > .Listitem {
+  border-color: var(--playbook-ui-accent);
+}
+
+.Avatar-xs,
+.Avatar-sm,
+.Avatar-med,
+.Avatar-lg {
+  border-color: var(--playbook-ui-shade);
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.Stuck {
+  border-bottom: 1px solid var(--playbook-ui-accent);
+  color: var(--playbook-text-primary) !important;
+  background: var(--playbook-ui-base-bg);
+}
+
+.Stuck:before,
+.Stuck:after {
+  margin-bottom: -1px;
+  background: transparent;
+}
+
+.Pointer {
+  border-color: var(--playbook-ui-accent);
+}
+.Pointer:after {
+  border-color: var(--playbook-ui-primary);
+}
+
+#Stencil .F-trade {
+  color: var(--playbook-core-blue);
+}
+#Stencil .F-watch {
+  color: var(--playbook-text-link);
+}
+#Stencil .F-error {
+  color: var(--playbook-text-negative);
+}
+#Stencil .F-success {
+  color: var(--playbook-text-positive);
+}
+#Stencil .F-position {
+  color: var(--playbook-text-primary);
+}
+#Stencil .F-rank-good {
+  color: var(--playbook-text-positive);
+}
+#Stencil .F-rank-bad {
+  color: var(--playbook-text-negative);
+}
+#Stencil .F-rank-neutral {
+  color: var(--playbook-text-secondary);
+}
+#Stencil .Linkable:hover {
+  background: var(--playbook-ui-blue-highlight);
+}
+#Stencil .Linkable:hover a:not(.Btn, .Btn-primary) {
+  color: var(--playbook-text-link) !important;
+}
+#Stencil .Bg {
+  background: var(--playbook-ui-base-bg);
+}
+#Stencil .Bg-shade {
+  background: var(--playbook-ui-shade);
+}
+#Stencil .Bg-shade2 {
+  background: var(--playbook-ui-shade);
+}
+#Stencil .Bg-shade3 {
+  background: var(--playbook-ui-accent);
+}
+#Stencil .Bg-shade4 {
+  background: var(--playbook-ui-primary);
+}
+#Stencil .Bg-overlay {
+  background-color: var(--playbook-ui-base-bg);
+}
+#Stencil .Bg-gold {
+  background-color: var(--playbook-felo-gold);
+}
+#Stencil .Bg-silver {
+  background-color: var(--playbook-felo-silver);
+}
+#Stencil .Bg-bronze {
+  background-color: var(--playbook-felo-bronze);
+}
+#Stencil .Bg-plastic {
+  background-color: var(--playbook-core-red);
+}
+#Stencil .Bg-positive {
+  background: var(--playbook-core-green);
+}
+#Stencil .Bg-negative {
+  background: var(--playbook-core-red);
+}
+#Stencil .Bg-selected {
+  background: var(--playbook-ui-blue-highlight);
+}
+#Stencil .Bg-daily {
+  background: var(--playbook-sport-daily);
+}
+#Stencil .Bdr,
+#Stencil .Bdrx,
+#Stencil .Bdry,
+#Stencil .Bdrtop,
+#Stencil .Bdrbot,
+#Stencil .Bdrstart,
+#Stencil .Bdrend {
+  border-color: var(--playbook-ui-accent);
+}
+#Stencil .Bdr-shade {
+  border-color: var(--playbook-ui-shade);
+}
+#Stencil .Bdr-shade2 {
+  border-color: var(--playbook-ui-shade);
+}
+#Stencil .Bdr-shade3 {
+  border-color: var(--playbook-ui-secondary);
+}
+#Stencil .Box-shadow {
+  -moz-box-shadow: var(--playbook-ui-primary-dim-3) 0px 0px 5px;
+  -webkit-box-shadow: var(--playbook-ui-primary-dim-3) 0px 0px 5px;
+  box-shadow: var(--playbook-ui-primary-dim-3) 0px 0px 5px;
+}
+#Stencil .Box-shadow-inset {
+  -moz-box-shadow: var(--playbook-ui-primary-dim-25) 0px 0px 3px 0px inset;
+  -webkit-box-shadow: var(--playbook-ui-primary-dim-25) 0px 0px 3px 0px inset;
+  box-shadow: var(--playbook-ui-primary-dim-25) 0px 0px 3px 0px inset;
+}
+#Stencil .F-link {
+  color: var(--playbook-text-link);
+}
+#Stencil .F-disabled {
+  color: var(--playbook-text-disabled);
+}
+#Stencil .F-faded {
+  color: var(--playbook-ui-secondary);
+}
+#Stencil .F-faded2 {
+  color: var(--playbook-ui-accent);
+}
+#Stencil .F-shade {
+  color: var(--playbook-ui-secondary);
+}
+#Stencil .I-shade {
+  fill: var(--playbook-ui-secondary) !important;
+  color: var(--playbook-ui-secondary) !important;
+}
+#Stencil .F-shade2 {
+  color: var(--playbook-ui-accent);
+}
+#Stencil .F-shade3 {
+  color: var(--playbook-ui-shade);
+}
+#Stencil .F-shade4 {
+  color: var(--playbook-ui-secondary);
+}
+#Stencil .F-shade5 {
+  color: var(--playbook-ui-secondary);
+}
+#Stencil .F-reset {
+  color: var(--playbook-text-primary);
+}
+#Stencil .F-bright {
+  color: var(--playbook-ui-base-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#Stencil .F-positive {
+  color: var(--playbook-text-positive);
+}
+#Stencil .F-negative {
+  color: var(--playbook-text-negative);
+}
+#Stencil .F-neutral {
+  color: var(--playbook-text-secondary);
+}
+#Stencil .F-live {
+  color: var(--playbook-core-red);
+}
+#Stencil .F-injury {
+  color: var(--playbook-text-negative);
+}
+#Stencil .F-injury[title] {
+  cursor: help;
+}
+#Stencil .F-firstplace {
+  color: var(--playbook-felo-gold);
+}
+#Stencil .F-secondplace {
+  color: var(--playbook-felo-silver);
+}
+#Stencil .F-thirdplace {
+  color: var(--playbook-felo-bronze);
+}
+#Stencil .F-twitter {
+  color: #00ACED;
+}
+#Stencil .F-facebook {
+  color: #3B5998;
+}
+#Stencil .F-timestamp {
+  color: var(--playbook-text-secondary);
+}
+#Stencil .F-felo-bronze {
+  color: var(--playbook-felo-bronze);
+}
+#Stencil .F-felo-silver {
+  color: var(--playbook-felo-silver);
+}
+#Stencil .F-felo-gold {
+  color: var(--playbook-felo-gold);
+}
+#Stencil .F-felo-platinum {
+  color: var(--playbook-felo-platinum);
+}
+#Stencil .F-felo-diamond {
+  color: var(--playbook-felo-diamond);
+}
+#Stencil .League-logo-bronze {
+  border-color: var(--playbook-felo-bronze);
+}
+#Stencil .League-logo-silver {
+  border-color: var(--playbook-felo-silver);
+}
+#Stencil .League-logo-gold {
+  border-color: var(--playbook-felo-gold);
+}
+#Stencil .League-logo-platinum {
+  border-color: var(--playbook-felo-platinum);
+}
+#Stencil .League-logo-diamond {
+  border-color: var(--playbook-felo-diamond);
+}
+#Stencil .Bg-felo-bronze {
+  background-color: var(--playbook-felo-bronze);
+}
+#Stencil .Bg-felo-silver {
+  background-color: var(--playbook-felo-silver);
+}
+#Stencil .Bg-felo-gold {
+  background-color: var(--playbook-felo-gold);
+}
+#Stencil .Bg-felo-platinum {
+  background-color: var(--playbook-felo-platinum);
+}
+#Stencil .Bg-felo-diamond {
+  background-color: var(--playbook-felo-diamond);
+}
+#Stencil .Rollover-basketball {
+  background-color: var(--playbook-mono-orange-1);
+  color: var(--playbook-sport-basketball);
+  border: 1px solid var(--playbook-sport-basketball);
+}
+#Stencil .Rollover-basketball-light {
+  background-color: var(--playbook-ui-card-stream-bg);
+  border: 1px solid var(--playbook-text-primary);
+}
+#Stencil .Rollover-basketball-dark {
+  background-color: var(--playbook-ui-card-stream-bg-inverse);
+  color: var(--playbook-text-primary-inverse);
+  border: 1px solid var(--playbook-text-primary-inverse);
+}
+#Stencil .Rollover-baseball {
+  background-color: var(--playbook-mono-green-1);
+  color: var(--playbook-sport-baseball);
+  border: 1px solid var(--playbook-sport-baseball);
+}
+#Stencil .Rollover-hockey {
+  background-color: var(--playbook-mono-blue-1);
+  color: var(--playbook-sport-hockey);
+  border: 1px solid var(--playbook-sport-hockey);
+}
+#Stencil .Rollover-football {
+  background-color: var(--playbook-mono-red-1);
+  color: var(--playbook-sport-football);
+  border: 1px solid var(--playbook-sport-football);
+}
+#Stencil .F-rollover-basketball {
+  color: var(--playbook-sport-basketball);
+}
+#Stencil .F-rollover-baseball {
+  color: var(--playbook-sport-baseball);
+}
+#Stencil .F-rollover-hockey {
+  color: var(--playbook-sport-hockey);
+}
+#Stencil .F-rollover-football {
+  color: var(--playbook-sport-football);
+}
+#Stencil .Rollover-basketball-border {
+  border: 1px solid var(--playbook-sport-basketball);
+}
+#Stencil .Rollover-baseball-border {
+  border: 1px solid var(--playbook-sport-baseball);
+}
+#Stencil .Rollover-hockey-border {
+  border: 1px solid var(--playbook-sport-hockey);
+}
+#Stencil .Rollover-football-border {
+  border: 1px solid var(--playbook-sport-football);
+}
+
+#draft-calendar div.yui3-calendar-content table.yui3-calendar-grid tbody tr td.yui3-calendar-selection-disabled, #draft-time div.yui3-calendar-content table.yui3-calendar-grid tbody tr td.yui3-calendar-selection-disabled, div.yui3-calendar-content table.yui3-calendar-grid tbody tr td.yui3-calendar-selection-disabled {
+  background: var(--playbook-ui-base-bg);
+  color: var(--playbook-text-disabled);
+  border-color: var(--playbook-text-disabled);
+}
+#draft-calendar div.yui3-calendar-content table.yui3-calendar-grid tbody tr td.yui3-calendar-selection-disabled:hover, #draft-time div.yui3-calendar-content table.yui3-calendar-grid tbody tr td.yui3-calendar-selection-disabled:hover, div.yui3-calendar-content table.yui3-calendar-grid tbody tr td.yui3-calendar-selection-disabled:hover {
+  background: var(--playbook-special-grey-hover);
+}
+#draft-calendar div.yui3-calendar-content table.yui3-calendar-grid tbody tr td.yui3-calendar-day.yui3-calendar-day-selected, #draft-time div.yui3-calendar-content table.yui3-calendar-grid tbody tr td.yui3-calendar-day.yui3-calendar-day-selected, div.yui3-calendar-content table.yui3-calendar-grid tbody tr td.yui3-calendar-day.yui3-calendar-day-selected {
+  background-color: var(--playbook-core-blue) !important;
+  color: var(--playbook-text-primary-inverse);
+}
+#draft-calendar div.yui3-calendar-content table.yui3-calendar-grid tbody tr td.yui3-calendar-day.yui3-calendar-day-selected:hover, #draft-time div.yui3-calendar-content table.yui3-calendar-grid tbody tr td.yui3-calendar-day.yui3-calendar-day-selected:hover, div.yui3-calendar-content table.yui3-calendar-grid tbody tr td.yui3-calendar-day.yui3-calendar-day-selected:hover {
+  background-color: var(--playbook-core-blue);
+  color: var(--playbook-text-primary-inverse);
+}
+
+#tooltip:after {
+  border-right-color: var(--playbook-ui-primary);
+}
+
+#tooltip div.yui3-widget-bd,
+#Stencil .Tooltip div.Bg-overlay {
+  border: none;
+  background-color: var(--playbook-ui-primary);
+  color: var(--playbook-text-primary-inverse);
+}
+
+#Stencil .Tooltip .arrow {
+  color: var(--playbook-ui-primary);
+}
+
+.Overlay.yui3-overlay-content,
+.yfa-overlay.yui3-overlay-content {
+  background: var(--playbook-ui-card-bg);
+}
+.Overlay.yui3-overlay-content-dark,
+.yfa-overlay.yui3-overlay-content-dark {
+  background: var(--playbook-ui-base-bg-inverse);
+  color: var(--playbook-text-primary-inverse);
+}
+
+.Card {
+  background-color: var(--playbook-ui-card-bg);
+  box-shadow: var(--playbook-elevation-card);
+  color: var(--playbook-text-primary);
+}

@@ -1,0 +1,197 @@
+
+#Stencil.ysf-html .yui3-ysplayernote .teamtable {
+    font-size: 13px;
+}
+#Stencil.ysf-html .yui3-ysplayernote .teamtable th{
+    font-size: 85%;
+}
+#Stencil.ysf-html .yui3-ysplayernote .teamtable th div{
+    font-weight:normal;
+}
+.yui3-ysplayernote div.playerdata {
+    width: 68%;
+}
+
+.yui3-ysplayernote div.playerdata.full {
+    width: 100% !important;
+}
+
+.yui3-ysplayernote div.playernotes {
+    padding-right: 0.5%;
+    width: 31%;
+}
+
+.yui3-ysplayernote .playercomparison h5 {
+    top: 0;
+}
+
+.teamsched {
+    font-size: 83%;
+}
+
+.teamsched-bd .even {
+    background: #eee;
+}
+
+.yui3-ysplayernote ul.comp-nav {
+    top: 4px;
+}
+
+div.playerinfo dl dt, div.playerinfo dl dd dt {
+    margin: 0;
+}
+
+.yui3-ysplayernote div.in-leaguestats li {
+}
+
+.yui3-ysplayernote div.playernoteview-availability,
+.yui3-ysplayernote div.playernoteview-history,
+.yui3-ysplayernote div.playernoteview-bets {
+    height: 367px;
+    background: #fff;
+    overflow:scroll;
+}
+
+.yui3-ysplayernote .playernoteview-availability #league-availability {
+    margin: 20px 0 0 13px;
+    min-height: 240px;
+}
+
+.teamtable th {
+    background: #EDEDED;
+}
+
+.yui3-ysplayernote .playernoteview-availability #league-availability h4,
+.yui3-ysplayernote .playernoteview-history #league-history h4 {
+    color: #000;
+    font-size: 108%;
+    margin-bottom: 5px;
+    float:none;
+}
+
+.teamsched-bd .teamtable th,
+.teamsched-bd .teamtable td {
+    padding:3px;
+}
+.teamsched-bd .teamtable td.stat,
+.teamsched-bd .teamtable th.stat{
+    text-align:left;
+}
+.yui3-ysplayernote .teamsched-bd th.opp,
+.yui3-ysplayernote .teamsched-bd td.opp {
+    width: 30px;
+}
+.yui3-ysplayernote .teamsched-bd th.date,
+.yui3-ysplayernote.teamsched-bd td.date {
+    width: 30px;
+}
+.yui3-ysplayernote .teamsched-bd th.status,
+.yui3-ysplayernote .teamsched-bd td.status {
+    width: 80px;
+}
+.teamsched-bd .teamtable td {
+    border-top: solid 1px #D8D9D5;
+}
+
+.teamsched-bd .teamtable :first-child td {
+    border-top: none;
+}
+
+#league-availability table,
+#league-history table {
+    width: 97%;
+}
+
+.yui3-ysplayernote .playerinfo .F-icon {
+    padding-right: 5px;
+}
+
+.yui3-ysplayernote .noteitem cite {
+display: block;
+margin-top: -5px;
+}
+
+.yui3-ysplayernote #playernotes-pointsagainst {
+    border-bottom: 1px solid #e7e7e7;
+    padding: 10px 0 10px 8px;
+    margin: 5px 0;
+    color: #333;
+}
+
+.yui3-ysplayernote #playernotes-pointsagainst.second {
+    border-top: 1px solid #e7e7e7;
+}
+.yui3-ysplayernote #playernotes-pointsagainst strong,
+.yui3-ysplayernote #playernotes-pointsagainst p {
+    line-height:131%;
+}
+
+.yui3-ysplayernote .noteitem {
+    border-bottom: 1px solid #e7e7e7;
+    padding: 2px 2px 10px;
+    margin: 10px 5px 10px;
+    zoom: 1;
+}
+
+
+
+.yui3-ysplayernote .rank-indicator {
+    width: 6px;
+    height: 6px;
+    margin: 0 5px 1px 0;
+    font-size: 0;
+    zoom: 1;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.yui3-ysplayernote .rank-indicator.rank-top-ten {
+    background-color: #80cd00;
+    border-color: #80cd00;
+}
+
+.yui3-ysplayernote .rank-indicator.rank-middle {
+    background-color: #ffc000;
+    border-color: #ffc000;
+
+}
+
+.yui3-ysplayernote .rank-indicator.rank-bottom-ten {
+    background-color: #ea2502;
+    border-color: #ea2502;
+
+}
+
+.yui3-ysplayernote .teamsched-ft,
+.yui3-ysplayernote .playernotes-ft {
+    margin-top: -2px;
+    font-size: 77%;
+    zoom: 1;
+}
+.yui3-ysplayernote .teamsched-ft {
+    font-size:92%;
+}
+
+.yui3-ysplayernote .teamsched-ft, .yui3-ysplayernote .playernotes-ft {
+    border-top: 1px solid #CCC;
+}
+
+.yui3-ysplayernote .teamsched-ft {
+    
+}
+
+.yui3-ysplayernote #teamsched-ft #schedule-link {
+    float: left;
+}
+
+.yui3-ysplayernote .teamsched-ft em.proj-pts {
+    display: block;
+    float: right;
+}
+.yui3-ysplayernote .teamsched .status a {
+    white-space: normal;
+    width: 80px;
+    word-wrap: break-word;
+}

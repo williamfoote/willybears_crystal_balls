@@ -1,0 +1,28 @@
+#video-playlist .Logo,
+#video-forecast .Logo {
+  background-image: url(https://s.yimg.com/cv/apiv2/default/logos/yahoo-fantasy-logo-stacked-white.png);
+  background-repeat: no-repeat;
+  width: 90px;
+  height: 31px;
+  display: block;
+}
+#video-playlist .Bd,
+#video-forecast .Bd {
+  color: #fff;
+  background-color: #000;
+}
+#video-playlist .vp-overlay,
+#video-forecast .vp-overlay {
+  width: 30%;
+}
+#video-playlist .Loader,
+#video-forecast .Loader {
+  background: url(https://s.yimg.com/dh/ap/fantasy/img/loader_circ_lg_fff_000.gif) no-repeat center center;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  #video-playlist .Logo,
+  #video-forecast .Logo {
+    background-image: url(https://s.yimg.com/cv/apiv2/default/logos/yahoo-fantasy-logo-stacked-white@2x.png);
+    background-size: auto 31px;
+  }
+}

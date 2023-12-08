@@ -1,0 +1,59 @@
+span.tooltip {
+  cursor: pointer;
+}
+
+#tooltip .yui3-widget-bd {
+  color: #000;
+  text-align: left;
+  max-width: 400px;
+  *width: 400px;
+  background-color: #fff;
+  border: solid 1px #bebebe;
+  padding: 10px;
+  border-radius: 6px;
+  text-shadow: none;
+  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  top: 5px;
+  position: relative;
+}
+
+#tooltip .yui3-widget-bd:lang(ar) {
+  text-align: right;
+}
+
+#tooltip .yui3-widget-bd p {
+  padding-bottom: 15px;
+}
+
+#tooltip .yui3-widget-bd span {
+  font-weight: bold;
+}
+
+#tooltip:after,
+#tooltip:before {
+  left: -19px;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+#tooltip:after {
+  border-color: rgba(255, 255, 255, 0);
+  border-right-color: #fff;
+  border-width: 10px;
+  top: 25px;
+  margin-top: -10px;
+}
+
+.arrow_box:before {
+  border-color: rgba(190, 190, 190, 0);
+  border-right-color: #bebebe;
+  border-width: 11px;
+  top: 25%;
+  margin-top: -11px;
+}

@@ -1,0 +1,58 @@
+.yfa-matchup {
+  line-height: 1.5;
+  overflow: hidden;
+  padding: 0;
+}
+.yfa-matchup .yfa-team {
+  float: left;
+  text-align: left;
+  clear: left;
+}
+.yfa-matchup .yfa-team.winner, .yfa-matchup .yfa-team.winning {
+  font-weight: bold;
+}
+.yfa-matchup .yfa-score,
+.yfa-matchup .yfa-permalinks {
+  display: block;
+}
+.yfa-matchup .yfa-score.winner, .yfa-matchup .yfa-score.winning,
+.yfa-matchup .yfa-permalinks.winner,
+.yfa-matchup .yfa-permalinks.winning {
+  font-weight: bold;
+}
+.yfa-matchup .yfa-permalinks {
+  clear: left;
+}
+.yfa-matchup .yfa-competitors {
+  text-align: right;
+}
+.yfa-matchup.bracket {
+  max-width: 85%;
+  margin: 0 auto 8px auto;
+  min-height: 75px;
+}
+.yfa-matchup.bracket.semifinal {
+  margin-top: 60px;
+}
+.yfa-matchup.bracket.semifinal + .semifinal {
+  margin-top: 110px;
+  margin-bottom: 10px;
+}
+.yfa-matchup.bracket.final {
+  margin-top: 160px;
+}
+.yfa-matchup.bracket.place_3, .yfa-matchup.bracket.place_9 {
+  margin-top: 120px;
+}
+.yfa-matchup.bracket.place_5 {
+  margin-top: 126px;
+}
+.yfa-matchup.bracket.place_7 {
+  margin-top: 126px;
+}
+.yfa-matchup.bracket + .yfa-matchup.bracket.place_7 {
+  margin-top: 50px;
+}
+.yfa-matchup.bracket.place_11 {
+  margin-top: 90px;
+}

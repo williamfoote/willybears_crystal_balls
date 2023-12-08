@@ -1,0 +1,44 @@
+.playersearchbox .yui3-ysfplayersearch {
+    background: white;
+    -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    *border-right: 1px solid #666;
+    *border-bottom: 1px solid #666;
+    border-left: 1px solid #dfdfdf;
+    color:#000;
+}
+.playersearchbox .yui3-ysfplayersearch-item {
+    font-size: 85%;
+    padding: 2px 5px;
+    text-align: left;
+}
+.playersearchbox .yui3-ysfplayersearch-hidden {
+    display: none;
+}
+.playersearchbox .yui3-ysfplayersearch-item-active {
+    background-color: #EDF5FF;
+}
+.playersearchbox .yui3-ysfplayersearch-aria {
+    position: absolute;
+    left: -9999em;
+}
+.yui3-ysfplayersearch-clear {
+    margin-left: -25px;
+}
+a.yui3-ysfplayersearch-clear:link,
+a.yui3-ysfplayersearch-clear:visited,
+a.yui3-ysfplayersearch-clear:hover
+a.yui3-ysfplayersearch-clear:active {
+    color: white;
+    text-decoration: none;
+}
+
+input[type=text]::-ms-clear {  display: none; width : 0; height: 0; }
+input[type=text]::-ms-reveal {  display: none; width : 0; height: 0; }
+input[name="search"]::-webkit-search-cancel-button,
+input[name="search"]::-webkit-search-decoration,
+input[name="search"]::-webkit-search-results-button,
+input[name="search"]::-webkit-search-results-decoration {
+    display:none;
+}

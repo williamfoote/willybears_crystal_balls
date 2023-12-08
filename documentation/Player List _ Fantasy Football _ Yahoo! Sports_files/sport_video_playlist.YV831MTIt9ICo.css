@@ -1,0 +1,21 @@
+#video-playlist .Sponsor,
+#video-forecast .Sponsor {
+  background-image: url(https://s.yimg.com/dh/ap/fantasy/img/nfl/fanatics_ff.png);
+  background-repeat: no-repeat;
+  width: 129px;
+  height: 31px;
+  display: block;
+}
+#video-playlist .Bd.Player-bg,
+#video-forecast .Bd.Player-bg {
+  background-image: url(https://s.yimg.com/dh/ap/fantasy/img/nfl/ivp_nfl_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  #video-playlist .Sponsor,
+  #video-forecast .Sponsor {
+    background-image: url(https://s.yimg.com/dh/ap/fantasy/img/nfl/fanatics_ff@2x.png);
+    background-size: auto 31px;
+  }
+}

@@ -1,0 +1,99 @@
+.yfa-icon {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  text-indent: -9999px;
+  height: 10px;
+  overflow: hidden;
+  position: relative;
+  top: -.1em;
+  width: 10px;
+}
+.yfa-icon.close {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+  opacity: 0.4;
+}
+.yfa-icon.close:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+.yfa-icon.hidden-desktop {
+  display: none;
+}
+.yfa-icon.badged {
+  overflow: visible;
+  text-indent: 0;
+}
+.yfa-icon.badged .yfa-badge-alert {
+  background-color: #a52b2a;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 10px;
+  left: -10px;
+  line-height: 10px;
+  padding: 0.1em 0.3em;
+  position: absolute;
+  top: -10px;
+  *top: -8px;
+}
+.yfa-icon.playernote-new, .yfa-icon.playernote-recent, .yfa-icon.playernote-old, .yfa-icon.video-new, .yfa-icon.video-recent, .yfa-icon.video-old {
+  background: url(https://s.yimg.com/cv/apiv2/fantasy/img/player-note-sprite.png);
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .yfa-icon.playernote-new, .yfa-icon.playernote-recent, .yfa-icon.playernote-old, .yfa-icon.video-new, .yfa-icon.video-recent, .yfa-icon.video-old {
+    background: url(https://s.yimg.com/cv/apiv2/fantasy/img/player-note-sprite@2x.png);
+    background-size: auto 84px;
+  }
+}
+.yfa-icon.video-new {
+  background-position: 0 0;
+  height: 14px;
+  width: 14px;
+}
+.yfa-icon.video-recent {
+  background-position: 0 -14px;
+  height: 14px;
+  width: 14px;
+}
+.yfa-icon.video-old {
+  background-position: 0 -28px;
+  height: 14px;
+  width: 14px;
+}
+.yfa-icon.playernote-new {
+  background-position: 0 -42px;
+  height: 14px;
+  width: 14px;
+}
+.yfa-icon.playernote-recent {
+  background-position: 0 -56px;
+  height: 14px;
+  width: 14px;
+}
+.yfa-icon.playernote-old {
+  background-position: 0 -70px;
+  height: 14px;
+  width: 14px;
+}
+
+.yfa-facebook-share {
+  background: #406ab1;
+}
+.yfa-facebook-share:hover {
+  background: #345689;
+}
+
+.yfa-twitter-share {
+  background: #12b1d3;
+}
+.yfa-twitter-share:hover {
+  background: #0483a0;
+}

@@ -1,0 +1,14 @@
+.mode-edit-content,
+.mode-expanded-content {
+  display: none;
+}
+
+.mode-edit .mode-edit-content,
+.mode-expanded .mode-expanded-content {
+  display: block;
+}
+
+.mode-edit .mode-edit-content textarea {
+  margin: 8px 0;
+  width: 100%;
+}

@@ -1,0 +1,38 @@
+.yfa-scoreboard {
+  display: table;
+  *display: block;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.yfa-scoreboard > li {
+  display: table-row;
+  *display: block;
+  border: none;
+}
+.yfa-scoreboard .yfa-competitors,
+.yfa-scoreboard .yfa-permalinks {
+  display: table-cell;
+  *display: inline;
+  zoom: 1;
+}
+.yfa-scoreboard .yfa-competitors {
+  width: 100%;
+  *width: 60%;
+}
+.yfa-scoreboard .yfa-permalinks {
+  vertical-align: top;
+  white-space: nowrap;
+  *white-space: normal;
+  *width: 25%;
+}
+.yfa-scoreboard .yfa-permalinks a {
+  display: block;
+}
+.yfa-scoreboard .yfa-competitor-info {
+  text-align: left;
+}
+.yfa-scoreboard .yfa-stattracker-link {
+  font-weight: bold;
+}

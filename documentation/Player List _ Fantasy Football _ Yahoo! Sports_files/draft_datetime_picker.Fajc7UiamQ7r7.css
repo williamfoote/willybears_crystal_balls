@@ -1,0 +1,129 @@
+#draft-calendar {
+  font-size: 11px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #fff;
+  position: relative;
+}
+
+#draft-notes {
+  width: 200px;
+}
+
+.season-start {
+  font-size: 77%;
+  font-weight: bold;
+}
+
+#draft-calendar.yui3-skin-sam td.set {
+  background-color: #737373;
+}
+
+#draft-calendar.yui3-skin-sam .yui3-calendar-nextmonth-day,
+#draft-calendar.yui3-skin-sam .yui3-calendar-prevmonth-day {
+  border: 0;
+}
+
+#draft-calendar.yui3-skin-sam .yui3-calendar-day {
+  background-color: #fff;
+  border: 0;
+}
+
+html:not(.Touch) #draft-calendar.yui3-skin-sam .yui3-calendar-day:hover {
+  background-color: #eee;
+  color: #000;
+  cursor: default;
+}
+
+#draft-calendar.yui3-skin-sam .avail-date {
+  color: #5975FB;
+  background-color: #fff;
+}
+
+#draft-calendar.yui3-skin-sam .avail-date:hover {
+  background-color: #e9f3ff;
+  cursor: pointer;
+}
+
+#draft-calendar.yui3-skin-sam .yui3-calendar-header-label {
+  font-size: 12px;
+}
+
+#draft-calendar.yui3-skin-sam .yui3-calendar-day-selected,
+#draft-calendar.yui3-skin-sam .yui3-calendar-time-selected {
+  background-color: #5975FB;
+  color: #fff;
+  border: 1px solid #253e7d;
+}
+
+#draft-calendar td {
+  font-size: inherit;
+  padding: 3px;
+}
+
+#reg-drafttime-note {
+  width: 460px;
+  font-size: 77%;
+  padding: 0;
+  margin-bottom: 10px;
+  clear: left;
+}
+
+#reg-drafttime-note strong {
+  font-weight: bold;
+}
+
+#datetime-picker .error {
+  font-weight: bold;
+  color: #f00;
+}
+
+#draft-notes ul li {
+  list-style: disc;
+  margin: 10px 10px 10px 15px;
+}
+
+
+#draft-calendar:after, #draft-calendar:before {
+  right: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+#draft-calendar:after {
+  border-color: rgba(255, 255, 255, 0);
+  border-right-color: #fff;
+  border-width: 10px;
+  top: 50%;
+  margin-top: -10px;
+}
+
+#draft-calendar:before {
+  border-color: rgba(170, 170, 170, 0);
+  border-right-color: #aaa;
+  border-width: 11px;
+  top: 50%;
+  margin-top: -11px;
+}
+
+#draft-calendar #closeCal {
+  display: block;
+  text-align: center;
+}
+
+#draft-calendar.yui3-skin-sam.yui3-calendar-content {
+  background: #fff;
+}
+
+
+.yfa-form input[disabled], .yfa-form select[disabled], .yfa-form textarea[disabled], .yfa-form input[readonly], .yfa-form select[readonly], .yfa-form textarea[readonly] {
+  border: 1px solid #CCCCCC;
+  background-color: #fff;
+  cursor: not-allowed;
+  color: #000;
+}
